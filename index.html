@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prism Sort — Privacy Policy / Gizlilik Politikası</title>
+  <meta name="description" content="Official Privacy Policy for Prism Sort mobile game (com.kizgiydiroyun.prismsort). Offline, zero data collection.">
+  <style>
+    :root {
+      --bg-color: #0d1117;
+      --card-bg: #161b22;
+      --card-border: #30363d;
+      --text-main: #e6edf3;
+      --text-muted: #8b949e;
+      --accent-primary: #79c0ff;
+      --accent-purple: #d2a8ff;
+      --accent-teal: #56d364;
+      --accent-glow: rgba(121, 192, 255, 0.15);
+      --badge-bg: #21262d;
+      --highlight-bg: #1f242c;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 24px 16px 60px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+      padding: 24px 16px;
+      background: linear-gradient(180deg, rgba(31, 38, 51, 0.7) 0%, rgba(22, 27, 34, 0.3) 100%);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      box-shadow: 0 8px 24px var(--accent-glow);
+    }
+
+    .app-icon-placeholder {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #79c0ff 0%, #d2a8ff 50%, #56d364 100%);
+      margin-bottom: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      font-size: 32px;
+    }
+
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    /* Language Bar */
+    .lang-switcher {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin: 24px 0 32px;
+      padding: 6px;
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+    }
+
+    .lang-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .lang-btn:hover {
+      color: var(--text-main);
+      background-color: var(--badge-bg);
+    }
+
+    .lang-btn.active {
+      color: #ffffff;
+      background-color: #238636;
+      border-color: #2ea043;
+      box-shadow: 0 2px 8px rgba(46, 160, 67, 0.3);
+    }
+
+    /* Policy Content Sections */
+    .lang-section {
+      display: none;
+      animation: fadeIn 0.25s ease-in-out;
+    }
+
+    .lang-section.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Metadata Card */
+    .meta-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+    }
+
+    .meta-item {
+      font-size: 0.88rem;
+    }
+
+    .meta-label {
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 2px;
+    }
+
+    .meta-value {
+      color: var(--text-main);
+      font-weight: 500;
+      word-break: break-all;
+    }
+
+    .meta-value code {
+      background-color: var(--badge-bg);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.85em;
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+      color: var(--accent-primary);
+    }
+
+    /* Intro Callout */
+    .callout {
+      background-color: rgba(121, 192, 255, 0.08);
+      border-left: 4px solid var(--accent-primary);
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 28px;
+      font-size: 0.96rem;
+    }
+
+    /* Section Cards */
+    .policy-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 20px;
+    }
+
+    .policy-card h3 {
+      font-size: 1.15rem;
+      color: var(--accent-primary);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .policy-card p {
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+      color: var(--text-main);
+    }
+
+    .policy-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .policy-card ul, .policy-card ol {
+      margin: 10px 0 12px 20px;
+      font-size: 0.94rem;
+    }
+
+    .policy-card li {
+      margin-bottom: 6px;
+      color: #c9d1d9;
+    }
+
+    .policy-card li:last-child {
+      margin-bottom: 0;
+    }
+
+    .policy-card code {
+      background-color: var(--badge-bg);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.88em;
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+      color: var(--accent-purple);
+    }
+
+    .badge-no-collect {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: rgba(86, 211, 100, 0.15);
+      color: #56d364;
+      border: 1px solid rgba(86, 211, 100, 0.3);
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--card-border);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    footer p {
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 16px 12px 40px;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      .policy-card {
+        padding: 16px 16px;
+      }
+      .meta-card {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="app-icon-placeholder">💎</div>
+      <h1>Prism Sort</h1>
+      <p class="subtitle">Official Privacy Policy &amp; Data Safety Information</p>
+    </header>
+
+    <!-- Language Selector Nav -->
+    <nav class="lang-switcher" aria-label="Language Selector">
+      <button class="lang-btn active" data-lang="tr" onclick="switchLang('tr')">🇹🇷 Türkçe</button>
+      <button class="lang-btn" data-lang="en" onclick="switchLang('en')">🇬🇧 English</button>
+      <button class="lang-btn" data-lang="de" onclick="switchLang('de')">🇩🇪 Deutsch</button>
+      <button class="lang-btn" data-lang="es" onclick="switchLang('es')">🇪🇸 Español</button>
+      <button class="lang-btn" data-lang="pt-BR" onclick="switchLang('pt-BR')">🇧🇷 Português (Brasil)</button>
+    </nav>
+
+    <!-- ==================== TÜRKÇE (TR) ==================== -->
+    <section id="tr" class="lang-section active" lang="tr">
+      <div class="meta-card">
+        <div class="meta-item">
+          <div class="meta-label">Son Güncelleme</div>
+          <div class="meta-value">2026-10-07</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Uygulama Adı</div>
+          <div class="meta-value">Prism Sort</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Paket Adı</div>
+          <div class="meta-value"><code>com.kizgiydiroyun.prismsort</code></div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Geliştirici</div>
+          <div class="meta-value">kizgiydiroyun</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">İletişim</div>
+          <div class="meta-value"><code>(E-POSTA EKLENECEK)</code></div>
+        </div>
+      </div>
+
+      <div class="callout">
+        Bu gizlilik politikası, <strong>kizgiydiroyun</strong> tarafından geliştirilen <strong>Prism Sort</strong> mobil uygulaması için geçerlidir. Kullanıcılarımızın gizliliğine tam saygı duyuyoruz ve bu politikada veri işleme süreçlerimizi şeffaf bir şekilde açıklıyoruz.
+      </div>
+
+      <div class="policy-card">
+        <span class="badge-no-collect">✓ Sıfır Veri Toplama</span>
+        <h3>1. Toplanan Bilgiler</h3>
+        <p>Prism Sort <strong>hiçbir kişisel veri, cihaz verisi veya kullanım bilgisi toplamaz, işlemez ve saklamaz.</strong></p>
+        <ul>
+          <li>Kullanıcı kaydı veya hesap oluşturma gerekmez.</li>
+          <li>Konum bilgisi, kişi listesi, mikrofon, kamera, depolama veya cihaz kimliklerine (IMEI, Reklam Kimliği vb.) erişilmez.</li>
+          <li>Finansal bilgi veya ödeme verisi toplanmaz (oyun tamamen ücretsizdir, satın alma içermez).</li>
+        </ul>
+      </div>
+
+      <div class="policy-card">
+        <h3>2. Yerel Veri Saklama</h3>
+        <p>Oyun ilerlemeniz (mevcut bölüm, tamamlanan seviyeler ve temel oyun tercihleri) yalnızca cihazınızın yerel depolama alanında (<code>user://</code> uygulama dizini) saklanır.</p>
+        <ul>
+          <li>Bu veriler hiçbir zaman harici bir sunucuya, buluta veya üçüncü tarafa iletilmez.</li>
+          <li>Verileriniz tamamen sizin kontrolünüzdedir.</li>
+        </ul>
+      </div>
+
+      <div class="policy-card">
+        <h3>3. Üçüncü Taraf Hizmetler ve SDK'lar</h3>
+        <p>Prism Sort içinde hiçbir üçüncü taraf analiz aracı (Google Analytics, Firebase vb.), reklam ağı (AdMob, Unity Ads vb.) veya harici izleme SDK'sı bulunmamaktadır. Uygulama tamamen bağımsız ve çevrimdışı çalışır.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>4. Çocukların Gizliliği</h3>
+        <p>Oyunumuz 13 yaş ve üzeri genel kitleye yönelik rahatlatıcı bir bulmaca oyunudur. 13 yaşın altındaki çocuklardan bilerek veya bilmeyerek hiçbir kişisel veri toplanmamaktadır.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>5. Veri Silme ve Kullanıcı Hakları</h3>
+        <p>Oyuna ait tüm yerel verileri dilediğiniz an silebilirsiniz:</p>
+        <ol>
+          <li>Cihazınızın <strong>Ayarlar &gt; Uygulamalar &gt; Prism Sort &gt; Depolama</strong> menüsünden <strong>"Verileri Temizle"</strong> seçeneğini kullanarak.</li>
+          <li>Uygulamayı cihazınızdan kaldırarak.</li>
+        </ol>
+        <p style="margin-top: 10px;">Bu işlemler yapıldığında cihazda saklanan tüm oyun kayıtları kalıcı olarak silinir.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>6. Politika Değişiklikleri</h3>
+        <p>Gizlilik politikamızda gelecekte bir güncelleme yapılması durumunda, güncel metin bu sayfa üzerinden ve mağaza listelemesi aracılığıyla duyurulacaktır.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>7. İletişim</h3>
+        <p>Gizlilik politikamız veya uygulamamızla ilgili her türlü soru, öneri ve geri bildiriminiz için bizimle iletişime geçebilirsiniz:</p>
+        <ul>
+          <li><strong>E-posta:</strong> <code>(E-POSTA EKLENECEK)</code></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== ENGLISH (EN) ==================== -->
+    <section id="en" class="lang-section" lang="en">
+      <div class="meta-card">
+        <div class="meta-item">
+          <div class="meta-label">Last Updated</div>
+          <div class="meta-value">2026-10-07</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">App Name</div>
+          <div class="meta-value">Prism Sort</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Package Name</div>
+          <div class="meta-value"><code>com.kizgiydiroyun.prismsort</code></div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Developer</div>
+          <div class="meta-value">kizgiydiroyun</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Contact</div>
+          <div class="meta-value"><code>(EMAIL TO BE ADDED)</code></div>
+        </div>
+      </div>
+
+      <div class="callout">
+        This Privacy Policy applies to the <strong>Prism Sort</strong> mobile game developed by <strong>kizgiydiroyun</strong>. We respect your privacy and are committed to maintaining complete transparency about our data practices.
+      </div>
+
+      <div class="policy-card">
+        <span class="badge-no-collect">✓ Zero Data Collection</span>
+        <h3>1. Information We Do Not Collect</h3>
+        <p>Prism Sort <strong>does not collect, store, transmit, or share any personal or device data.</strong></p>
+        <ul>
+          <li>No user registration, accounts, or logins required.</li>
+          <li>No access to precise/approximate location, contacts, microphone, camera, storage files, or persistent device identifiers (IMEI, Advertising ID).</li>
+          <li>No financial or payment data collected (the game is completely free without in-app purchases).</li>
+        </ul>
+      </div>
+
+      <div class="policy-card">
+        <h3>2. Local Data Storage</h3>
+        <p>Your game progress (current level, completed stages, and local settings) is stored exclusively on your device's local application storage (<code>user://</code> directory).</p>
+        <ul>
+          <li>This data is never sent to external servers, cloud services, or third parties.</li>
+          <li>You retain complete ownership and control over your local data.</li>
+        </ul>
+      </div>
+
+      <div class="policy-card">
+        <h3>3. Third-Party Services and SDKs</h3>
+        <p>Prism Sort does not integrate any third-party tracking tools, analytics SDKs (such as Google Analytics or Firebase), or advertising networks (such as AdMob or Unity Ads). The game runs entirely standalone and offline.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>4. Children's Privacy</h3>
+        <p>Our game is a casual puzzle experience intended for a general audience (ages 13+). We do not knowingly or unknowingly collect any personal information from children under the age of 13.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>5. Data Deletion and User Rights</h3>
+        <p>You can delete all stored game data at any time by:</p>
+        <ol>
+          <li>Navigating to your device's <strong>Settings &gt; Apps &gt; Prism Sort &gt; Storage</strong> and selecting <strong>"Clear Data"</strong>.</li>
+          <li>Uninstalling the application from your device.</li>
+        </ol>
+        <p style="margin-top: 10px;">Either action will permanently erase all locally saved game files.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>6. Policy Updates</h3>
+        <p>Should we update this Privacy Policy in the future, the revised text will be published on this page and reflected in our store listing.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>7. Contact Us</h3>
+        <p>For any questions, feedback, or concerns regarding this Privacy Policy, please contact us at:</p>
+        <ul>
+          <li><strong>Email:</strong> <code>(EMAIL TO BE ADDED)</code></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== DEUTSCH (DE) ==================== -->
+    <section id="de" class="lang-section" lang="de">
+      <div class="meta-card">
+        <div class="meta-item">
+          <div class="meta-label">Zuletzt aktualisiert</div>
+          <div class="meta-value">2026-10-07</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">App-Name</div>
+          <div class="meta-value">Prism Sort</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Paketname</div>
+          <div class="meta-value"><code>com.kizgiydiroyun.prismsort</code></div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Entwickler</div>
+          <div class="meta-value">kizgiydiroyun</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Kontakt</div>
+          <div class="meta-value"><code>(E-POSTA EKLENECEK)</code></div>
+        </div>
+      </div>
+
+      <div class="callout">
+        Diese Datenschutzerklärung gilt für das von <strong>kizgiydiroyun</strong> entwickelte Handyspiel <strong>Prism Sort</strong>. Wir respektieren Ihre Privatsphäre und legen unsere Datenverarbeitungspraktiken transparent dar.
+      </div>
+
+      <div class="policy-card">
+        <span class="badge-no-collect">✓ Keine Datenerfassung</span>
+        <h3>1. Nicht erhobene Daten</h3>
+        <p>Prism Sort <strong>erhebt, verarbeitet, speichert und teilt keinerlei personenbezogene Daten oder Gerätedaten.</strong></p>
+        <ul>
+          <li>Keine Registrierung, keine Benutzerkonten und keine Anmeldungen erforderlich.</li>
+          <li>Kein Zugriff auf Standortdaten, Kontakte, Kamera, Mikrofon, Gerätedateien oder Werbe-IDs (AAID, IMEI).</li>
+          <li>Keine Erfassung von Finanz- oder Zahlungsdaten (das Spiel ist vollständig kostenlos und enthält keine In-App-Käufe).</li>
+        </ul>
+      </div>
+
+      <div class="policy-card">
+        <h3>2. Lokale Datenspeicherung</h3>
+        <p>Ihr Spielfortschritt (aktuelles Level, gelöste Stufen und Spieleinstellungen) wird ausschließlich lokal auf Ihrem Gerät gespeichert (<code>user://</code>-Verzeichnis der App).</p>
+        <ul>
+          <li>Diese Daten werden niemals an externe Server, Cloud-Dienste oder Dritte übertragen.</li>
+          <li>Sie behalten jederzeit die vollständige Kontrolle über Ihre lokalen Daten.</li>
+        </ul>
+      </div>
+
+      <div class="policy-card">
+        <h3>3. Drittanbieter-Dienste und SDKs</h3>
+        <p>Prism Sort verwendet keine Analyse-Tools von Drittanbietern (wie Google Analytics oder Firebase) und bindet keine Werbenetzwerke (wie AdMob oder Unity Ads) ein. Die Anwendung funktioniert vollständig eigenständig und offline.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>4. Schutz der Privatsphäre von Kindern</h3>
+        <p>Unser Spiel ist ein Gelegenheitsrätsel für ein allgemeines Publikum (ab 13 Jahren). Wir erheben wissentlich oder unwissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>5. Datenlöschung und Nutzerrechte</h3>
+        <p>Sie können alle lokal gespeicherten Spieldaten jederzeit löschen:</p>
+        <ol>
+          <li>In den <strong>Einstellungen &gt; Apps &gt; Prism Sort &gt; Speicher</strong> Ihres Geräts auf <strong>"Daten löschen"</strong> tippen.</li>
+          <li>Die App von Ihrem Gerät deinstallieren.</li>
+        </ol>
+        <p style="margin-top: 10px;">Beide Aktionen entfernen sämtliche gespeicherten Spielstände unwiderruflich von Ihrem Gerät.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>6. Änderungen dieser Erklärung</h3>
+        <p>Sollten künftig Anpassungen an dieser Datenschutzerklärung vorgenommen werden, wird der aktualisierte Text auf dieser Seite sowie im Store-Eintrag bereitgestellt.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>7. Kontakt</h3>
+        <p>Bei Fragen oder Anregungen zu dieser Datenschutzerklärung erreichen Sie uns unter:</p>
+        <ul>
+          <li><strong>E-Mail:</strong> <code>(E-POSTA EKLENECEK)</code></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== ESPAÑOL (ES) ==================== -->
+    <section id="es" class="lang-section" lang="es">
+      <div class="meta-card">
+        <div class="meta-item">
+          <div class="meta-label">Última actualización</div>
+          <div class="meta-value">2026-10-07</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Nombre de la aplicación</div>
+          <div class="meta-value">Prism Sort</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Nombre del paquete</div>
+          <div class="meta-value"><code>com.kizgiydiroyun.prismsort</code></div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Desarrollador</div>
+          <div class="meta-value">kizgiydiroyun</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Contacto</div>
+          <div class="meta-value"><code>(E-POSTA EKLENECEK)</code></div>
+        </div>
+      </div>
+
+      <div class="callout">
+        Esta Política de Privacidad se aplica al juego móvil <strong>Prism Sort</strong> desarrollado por <strong>kizgiydiroyun</strong>. Respetamos plenamente su privacidad y explicamos de forma transparente nuestras prácticas relativas a los datos.
+      </div>
+
+      <div class="policy-card">
+        <span class="badge-no-collect">✓ Cero Recopilación de Datos</span>
+        <h3>1. Información que NO recopilamos</h3>
+        <p>Prism Sort <strong>no recopila, no procesa, no almacena ni comparte ningún tipo de dato personal o de dispositivo.</strong></p>
+        <ul>
+          <li>No requiere registro ni cuentas de usuario.</li>
+          <li>No accede a ubicación, contactos, cámara, micrófono, archivos de almacenamiento ni identificadores de dispositivo (IMEI, ID de publicidad).</li>
+          <li>No recopila datos financieros ni de pago (el juego es completamente gratuito y no contiene compras integradas).</li>
+        </ul>
+      </div>
+
+      <div class="policy-card">
+        <h3>2. Almacenamiento Local de Datos</h3>
+        <p>El progreso de su juego (nivel actual, etapas completadas y preferencias de juego) se guarda únicamente de forma local en el almacenamiento de su dispositivo (directorio de la aplicación <code>user://</code>).</p>
+        <ul>
+          <li>Estos datos nunca se envían a servidores externos, servicios en la nube ni a terceros.</li>
+          <li>Usted mantiene el control total sobre sus datos locales.</li>
+        </ul>
+      </div>
+
+      <div class="policy-card">
+        <h3>3. Servicios de Terceros y SDK</h3>
+        <p>Prism Sort no integra herramientas de análisis de terceros (como Google Analytics o Firebase) ni redes publicitarias (como AdMob o Unity Ads). La aplicación funciona de manera totalmente independiente y sin conexión.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>4. Privacidad Infantil</h3>
+        <p>Nuestro juego es un pasatiempo informal dirigido a un público general (a partir de 13 años). No recopilamos información personal de menores de 13 años.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>5. Eliminación de Datos y Derechos del Usuario</h3>
+        <p>Puede eliminar todos los datos almacenados del juego en cualquier momento:</p>
+        <ol>
+          <li>Desde los <strong>Ajustes &gt; Aplicaciones &gt; Prism Sort &gt; Almacenamiento</strong> de su dispositivo seleccionando <strong>"Borrar datos"</strong>.</li>
+          <li>Desinstalando la aplicación de su dispositivo.</li>
+        </ol>
+        <p style="margin-top: 10px;">Cualquiera de estas acciones eliminará permanentemente todos los registros locales del juego.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>6. Modificaciones de la Política</h3>
+        <p>Si en el futuro se actualiza esta Política de Privacidad, el nuevo texto se publicará en esta página y en la ficha de la tienda.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>7. Contacto</h3>
+        <p>Si tiene preguntas, sugerencias o comentarios acerca de esta Política de Privacidad, puede ponerse en contacto con nosotros en:</p>
+        <ul>
+          <li><strong>Correo electrónico:</strong> <code>(E-POSTA EKLENECEK)</code></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== PORTUGUÊS (PT-BR) ==================== -->
+    <section id="pt-BR" class="lang-section" lang="pt-BR">
+      <div class="meta-card">
+        <div class="meta-item">
+          <div class="meta-label">Última Atualização</div>
+          <div class="meta-value">2026-10-07</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Nome do Aplicativo</div>
+          <div class="meta-value">Prism Sort</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Nome do Pacote</div>
+          <div class="meta-value"><code>com.kizgiydiroyun.prismsort</code></div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Desenvolvedor</div>
+          <div class="meta-value">kizgiydiroyun</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Contato</div>
+          <div class="meta-value"><code>(E-POSTA EKLENECEK)</code></div>
+        </div>
+      </div>
+
+      <div class="callout">
+        Esta Política de Privacidade aplica-se ao jogo móvel <strong>Prism Sort</strong> desenvolvido por <strong>kizgiydiroyun</strong>. Respeitamos integralmente a sua privacidade e apresentamos de forma transparente as nossas práticas de tratamento de dados.
+      </div>
+
+      <div class="policy-card">
+        <span class="badge-no-collect">✓ Coleta Zero de Dados</span>
+        <h3>1. Informações que NÃO Coletamos</h3>
+        <p>O Prism Sort <strong>não coleta, não processa, não armazena e não compartilha nenhum dado pessoal ou de dispositivo.</strong></p>
+        <ul>
+          <li>Não requer cadastro, contas ou login de usuário.</li>
+          <li>Não acessa localização aproximada ou precisa, contatos, câmera, microfone, arquivos do dispositivo nem identificadores de publicidade (AAID, IMEI).</li>
+          <li>Não coleta dados financeiros ou de pagamento (o jogo é totalmente gratuito e não possui microtransações).</li>
+        </ul>
+      </div>
+
+      <div class="policy-card">
+        <h3>2. Armazenamento Local de Dados</h3>
+        <p>O progresso do jogo (nível atual, fases concluídas e configurações do jogo) é armazenado exclusivamente no armazenamento local do seu dispositivo (diretório <code>user://</code> do aplicativo).</p>
+        <ul>
+          <li>Esses dados nunca são transmitidos para servidores externos, nuvem ou terceiros.</li>
+          <li>O controle total sobre os dados locais permanece sempre com você.</li>
+        </ul>
+      </div>
+
+      <div class="policy-card">
+        <h3>3. Serviços e SDKs de Terceiros</h3>
+        <p>O Prism Sort não integra nenhuma ferramenta de análise (como Google Analytics ou Firebase) nem redes de publicidade (como AdMob ou Unity Ads). O aplicativo opera de forma 100% independente e offline.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>4. Privacidade de Crianças</h3>
+        <p>Nosso jogo é um passatempo casual voltado para o público geral (a partir de 13 anos). Não coletamos, direta ou indiretamente, informações pessoais de crianças menores de 13 anos.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>5. Exclusão de Dados e Direitos do Usuário</h3>
+        <p>Você pode excluir todos os dados salvos do jogo a qualquer momento:</p>
+        <ol>
+          <li>Acessando <strong>Configurações &gt; Aplicativos &gt; Prism Sort &gt; Armazenamento</strong> no seu dispositivo e tocando em <strong>"Limpar Dados"</strong>.</li>
+          <li>Desinstalando o aplicativo do seu dispositivo.</li>
+        </ol>
+        <p style="margin-top: 10px;">Qualquer uma dessas ações apagará permanentemente todos os registros de jogo armazenados no aparelho.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>6. Alterações nesta Política</h3>
+        <p>Caso haja atualizações futuras nesta Política de Privacidade, o texto revisado será publicado nesta página e informado na ficha da loja.</p>
+      </div>
+
+      <div class="policy-card">
+        <h3>7. Contato</h3>
+        <p>Para dúvidas, sugestões ou esclarecimentos sobre esta Política de Privacidade, entre em contato conosco pelo endereço:</p>
+        <ul>
+          <li><strong>E-mail:</strong> <code>(E-POSTA EKLENECEK)</code></li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 kizgiydiroyun — Prism Sort</p>
+      <p>All rights reserved. / Tüm hakları saklıdır.</p>
+    </footer>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      // Hide all sections
+      const sections = document.querySelectorAll('.lang-section');
+      sections.forEach(s => s.classList.remove('active'));
+
+      // Deactivate all buttons
+      const buttons = document.querySelectorAll('.lang-btn');
+      buttons.forEach(b => b.classList.remove('active'));
+
+      // Show selected section
+      const target = document.getElementById(lang);
+      if (target) {
+        target.classList.add('active');
+      }
+
+      // Activate selected button
+      const activeBtn = document.querySelector(`.lang-btn[data-lang="${lang}"]`);
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+      }
+
+      // Update URL hash without scrolling
+      if (history.replaceState) {
+        history.replaceState(null, null, '#' + lang);
+      } else {
+        location.hash = '#' + lang;
+      }
+    }
+
+    // Auto-detect hash on load
+    window.addEventListener('DOMContentLoaded', () => {
+      const hash = window.location.hash.replace('#', '');
+      const validLangs = ['tr', 'en', 'de', 'es', 'pt-BR'];
+      if (validLangs.includes(hash)) {
+        switchLang(hash);
+      } else {
+        // Default to browser language or TR
+        const userLang = navigator.language || navigator.userLanguage || '';
+        if (userLang.startsWith('en')) {
+          switchLang('en');
+        } else if (userLang.startsWith('de')) {
+          switchLang('de');
+        } else if (userLang.startsWith('es')) {
+          switchLang('es');
+        } else if (userLang.startsWith('pt')) {
+          switchLang('pt-BR');
+        } else {
+          switchLang('tr');
+        }
+      }
+    });
+  </script>
+</body>
+</html>
